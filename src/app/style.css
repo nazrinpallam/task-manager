@@ -1,0 +1,65 @@
+body{
+    background-image: url(bg-image.png);
+    font-style: italic;
+    color:black;
+}
+
+.task-manager{
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    margin:20px;
+}
+
+.tasks{
+    width:400px;
+    border: 2px solid #8D7B68;
+    padding : 20px;
+    border-radius:10px;
+    background-color: #F1DEC9;
+
+}
+
+.task{
+    border-radius : 10px;
+    border : 1px solid whitesmoke;
+    padding : 15px;
+    background-color: #C8B6A6;;
+}
+
+
+button{
+    border : none;
+    padding : 8px 12px;
+    border-radius : 5px;
+    color: white;
+    font-size : 15px;
+    font-weight : bold;
+}
+.content{
+    padding-right: 20px;
+    font-size: large;
+    color: brown;
+}
+.edit{
+    background-color: #9AC5F4;
+}
+
+.delete{
+    background-color : #E76161;
+}
+
+.save{
+    background-color:#C7E9B0;
+}
+
+.add-task-container button{
+    background-color: #A4BC92;
+}
+
+input{
+    border: 1px solid green;
+    border-radius : 5px;
+    padding : 8px 12px;
+}
+
